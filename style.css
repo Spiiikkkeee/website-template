@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Merriweather:ital,wght@1,900&family=Oswald:wght@300;500&family=Poppins:ital,wght@0,300;0,400;1,600&family=Signika&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-size: cover;
+    color: black;
+    background-color: #141526;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 70px;
+}
+
+nav{
+    position:fixed;
+    left: 115px;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 21rem;
+    margin-top: 1.3rem;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    padding: 0px 25px 0 0;
+    font-size: 20px;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+    background: fixed;
+}
+
+a:hover {
+    color: #1CBFFF;
+
+}
+
+
+span {
+    font-size: 35px;
+    color: whitesmoke;
+    margin-top: 19px;
+    padding-left: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+span:hover {
+    color: #1CBFFF;
+}
+
+.para {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:yellow;
+}
+
+p {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+
+.btn {
+    display: inline-block;
+    position: absolute;
+    top: 76%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0px solid grey;
+    border-radius: 15px;
+}
+
+button {
+    background: transparent;
+    border: 0.7px solid grey;
+    border-radius: 15px;
+    width: 145px;
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    height: 30px;
+}
+
+.btn:hover {
+    outline: #1CBFFF;
+    box-shadow: 0 0 1em 0.25em rgb(110, 237, 237),
+        0 0 0 0 rgba(65, 243, 243, 0.781),
+        inset 0 0 0.75em rgb(110, 237, 237);
+    transition: 0.5s ease-in-out;
+}
+
+button a {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:yellow;
+}
+
+.trong{
+    border:0.4px solid grey;
+    outline: none;
+}
+
+.grow {
+    position: absolute;
+    top: 38%;
+    left: 55%;
+}

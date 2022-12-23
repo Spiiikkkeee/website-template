@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Merriweather:ital,wght@1,900&family=Oswald:wght@300;500&family=Poppins:ital,wght@0,300;0,400;1,600&family=Signika&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #141526;
+}
+
+.all {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 400px;
+
+}
+
+.log {
+    display: inline-block;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+}
+
+.log input {
+    outline: none;
+     border: 0.5px solid blueviolet; 
+    /* border-radius: 25px; */
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    color: aqua;
+}
+.pass {
+    position: absolute;
+    top: 56%;
+    left: 30%;
+}
+
+.pass input {
+    border: 0.5px solid blueviolet;
+    /* border-radius: 25px; */
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    color: aqua;
+    outline: none;
+}
+
+.reset {
+    position: absolute;
+    top: 76%;
+    left: 35%;
+}
+
+.reset input {
+    width: 80px;
+    height: 30px;
+    background: transparent;
+    color: blueviolet;
+    border: 0.5px solid blueviolet;
+    border-radius: 5px; 
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.reset input:hover {
+    background-color: aquamarine;
+
+}
+
+.sumit {
+    position: absolute;
+    top: 76%;
+    left: 53%;
+}
+
+.sumit input {
+    width: 80px;
+    height: 30px;
+    background: transparent;
+    color: blueviolet;
+    border: 0.5px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.sumit input:hover {
+    background-color: aquamarine;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 45px;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+
+}
+
+h3 {
+    position: absolute;
+    display: inline-block;
+    top: 13%;
+    left: 48%;
+    font-size: 20px;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    position: absolute;
+    top: 17%;
+    left: 40%;
+    font-size: 44px;
+    padding-top: 5px;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 70px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 30rem;
+    margin-top: 1.3rem;
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    padding: 0px 65px 0 0;
+    font-size: 20px;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #1CBFFF;
+
+}
+
+span {
+    font-size: 35px;
+    color: whitesmoke;
+    margin-top: 19px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+span:hover {
+    color: #1CBFFF;
+}
+
+.grow {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
